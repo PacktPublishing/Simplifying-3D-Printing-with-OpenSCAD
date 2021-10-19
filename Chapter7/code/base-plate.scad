@@ -8,7 +8,7 @@ module create_first_shape()
     }   
 }
 
-module create_broach_indent(width, height)
+module create_brooch_indent(width, height)
 {
     translate([0,0,-1])
     color("#dc143c")
@@ -32,7 +32,7 @@ module create_base_plate(
             mirror([1,0,0])create_first_shape();
             circle(d=90);
         }
-        create_broach_indent(32, 7);
+        create_brooch_indent(32, 7);
     }
 }
 
