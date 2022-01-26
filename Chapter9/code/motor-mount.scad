@@ -82,7 +82,7 @@ module create_bottom_bracket(type=18)
         create_screw_holes(3);
         
         rotate([0,0,90])
-        create_screw_holes(5);
+        create_screw_holes(6);
     }
 }
 
