@@ -90,7 +90,11 @@ module create_bottom_plate()
 }
 
 
- create_bottom_plate();
+//uncomment out to create top frame
+//create_frame();
+
+//uncomment out to create bottom frame    
+//create_bottom_plate();
 
 
 
