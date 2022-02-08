@@ -1,2 +1,2 @@
-# Kick-Start-3D-Printing-with-OpenSCAD
-Kick Start 3D Printing with OpenSCAD, published by Packt
+# Simplifying 3D Printing with OpenSCAD
+Simplifying 3D Printing with OpenSCAD, published by Packt
