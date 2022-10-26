@@ -69,3 +69,7 @@ has been 3D printing since 2013 starting with the laser cut wooden frame version
 * [Hands-On Edge Analytics with Azure IoT](https://www.packtpub.com/product/hands-on-edge-analytics-with-azure-iot/9781838829902?utm_source=github&utm_medium=repository&utm_campaign=9781838829902)
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801813174">https://packt.link/free-ebook/9781801813174 </a> </p>
