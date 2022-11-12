@@ -2,12 +2,12 @@ $fn=200;
 
 contour = "contour.svg";
 diameter = 49;
-height = 100;
+screw_hole_height = 100;
 screw_length = 65;
 countersink = 30;
 
 radius = diameter/2;
-distance = radius + 40;
+screw_hole_distance = radius + 40;
 
 
 
@@ -68,9 +68,10 @@ module create_back_half()
     }
 }
 
-//create_back_half();
+translate([-30,0,0])create_back_half();
+translate([30,0,0])create_front_half();
 //generate_screw_holes(100, radius + 40, 30); 
-generate_shape();
+//generate_shape();
 
 
 
