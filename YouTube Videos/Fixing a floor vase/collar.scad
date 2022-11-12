@@ -1,7 +1,7 @@
 $fn=200;
 
 contour = "contour.svg";
-diameter = 49;
+diameter = 52;
 screw_hole_height = 100;
 screw_length = 65;
 countersink = 30;
@@ -29,19 +29,19 @@ module generate_shape()
 
 module generate_screw_holes()
 {
-    translate([0,0,height])
+    translate([0,0,screw_hole_height])
     rotate([0,90,0])
     {
-        translate([0,distance,0])
+        translate([0,screw_hole_distance,0])
         cylinder(d=4, h=screw_length, center=true);
     
-        translate([0,distance,countersink])
+        translate([0,screw_hole_distance,countersink])
         cylinder(d=20, h=screw_length);
     
-        translate([0,-distance,0])
+        translate([0,-screw_hole_distance,0])
         cylinder(d=4, h=screw_length, center=true);
     
-        translate([0,-distance,countersink])
+        translate([0,-screw_hole_distance,countersink])
         cylinder(d=20, h=screw_length);
     }      
 }
@@ -52,7 +52,7 @@ module create_front_half()
     {   
         generate_shape();
         
-        translate([-5000,0,0])
+        translate([5000,0,0])
         cube([10000,10000,10000], center=true);
     }
 }
@@ -63,15 +63,13 @@ module create_back_half()
     {   
         generate_shape();
         
-        translate([5000,0,0])
+        translate([-5000,0,0])
         cube([10000,10000,10000], center=true);
     }
 }
 
-translate([-30,0,0])create_back_half();
-translate([30,0,0])create_front_half();
-//generate_screw_holes(100, radius + 40, 30); 
-//generate_shape();
+//create_back_half();
+create_front_half();
 
 
 
