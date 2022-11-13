@@ -22,7 +22,7 @@ module generate_shape()
             import(contour);
         }
         
-          generate_screw_holes(100, radius + 40, 30); 
+          generate_screw_holes(); 
     }
 }
 
@@ -57,7 +57,7 @@ module create_front_half()
     }
 }
 
-module create_back_half()
+module create_back_half()  
 {
     difference()
     {   
