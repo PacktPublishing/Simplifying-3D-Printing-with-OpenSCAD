@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781801813174)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Simplifying 3D Printing with OpenSCAD
 
 <a href="https://www.packtpub.com/product/simplifying-3d-printing-with-openscad/9781801813174?utm_source=github&utm_medium=repository&utm_campaign=9781801813174"><img src="https://static.packt-cdn.com/products/9781801813174/cover/smaller" alt="Simplifying 3D Printing with OpenSCAD" height="256px" align="right"></a>
